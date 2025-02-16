@@ -40,31 +40,7 @@
 <body>
     <!-- top-area Start -->
     <header class="top-area">
-        <div class="header-area">
-            <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="/">Portofolio Kreatif</a>
-                    </div>
-                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class=" smooth-menu active"></li>
-                            <li class=" smooth-menu"><a href="#education">education</a></li>
-                            <li class="smooth-menu"><a href="#skills">skills</a></li>
-                            <li class="smooth-menu"><a href="#experience">experience</a></li>
-                            <li class="smooth-menu"><a href="#profiles">profile</a></li>
-                            <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-                            <li class="smooth-menu"><a href="#clients">clients</a></li>
-                            <li class="smooth-menu"><a href="#contact">contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="clearfix"></div>
+        @include('layout.header')
     </header>
     <!-- top-area End -->
 
@@ -75,7 +51,7 @@
                 <div class="col-md-12 text-center">
                     <div class="header-text">
                         <h2>hi <span>,</span> i am <br> Kamal Andreansyah <span> </span> </h2>
-                        <p>Fullstack Web Developer & Creative Multimedia Specialist</p>
+                        <p>Full-Stack Web Developer (Laravel) | Creative Graphic & Motion Design</p>
                         <a href="assets/download/browney.txt" download>download resume</a>
                     </div>
                 </div>
@@ -564,7 +540,7 @@
                                                     <span><i class="fa fa-circle" aria-hidden="true"></i></span>
                                                     KOPEGMAR TANJUNG PRIOK
                                                 </h4>
-                                                <h5>newyork, USA</h5>
+                                                <h5>Jakarta, Indonesia</h5>
                                                 <p class="description">
                                                     Perusahaan atau Organisasi bergerak dalam bidang pelayanan jasa
                                                     Simpan – Pinjam, Tenaga Kerja (Outsourcing), dan Pekerjaan
@@ -632,17 +608,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--/.col-->
                                 </div>
                             </div>
-                            <!--/.single-timeline-box-->
                         </li>
-
                     </ul>
                 </div>
-                <!--.main-timeline-->
             </div>
-            <!--.experience-content-->
         </div>
     </section>
     <!--/.experience-->
@@ -785,30 +756,12 @@
         </div>
     </section>
 
-    <!-- Modal -->
-    <div class="modal fade" id="certificateModal" tabindex="-1" role="dialog" aria-labelledby="certificateModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="certificateModalLabel">Certificate Detail</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img id="certificateImage" src="" class="img-fluid" alt="Certificate">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--profiles end -->
 
     <!--portfolio start -->
     <section id="portfolio" class="portfolio">
         <div class="portfolio-details">
             <div class="section-heading text-center">
-                <h2>portfolio</h2>
+                <h2>portofolio</h2>
             </div>
             <div class="container">
                 <div class="portfolio-content">
@@ -820,7 +773,7 @@
                                         alt="portfolio image" />
                                     <div class="isotope-overlay">
                                         <a href="https://kopegmartanjungpriok.id/" target="_blank">
-                                            Website Kopegmar Tanjung Priok
+                                            <strong>Website Kopegmar Tanjung Priok</strong>
                                         </a>
                                     </div>
                                 </div>
@@ -829,17 +782,39 @@
                                         alt="portfolio image" />
                                     <div class="isotope-overlay">
                                         <a href="https://paleturquoise-rat-735626.hostingersite.com/" target="_blank">
-                                            Madam Fasut
+                                            <strong> Madam Fasut </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('Template/assets/images/portfolio/RAT2022.png') }}"
+                                        alt="portfolio image" />
+                                    <div class="isotope-overlay">
+                                        <a href="{{ asset('Template/assets/images/portfolio/Design RAT 2022.pdf') }}"
+                                            target="_blank">
+                                            <strong> Design RAT 2022 </strong>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="Template/assets/images/portfolio/p3.jpg" alt="portfolio image" />
+                                    <img src="{{ asset('Template/assets/images/portfolio/idcardJAI.png') }}"
+                                        alt="portfolio image" />
                                     <div class="isotope-overlay">
-                                        <a href="#">
-                                            ID Card <br>PT Pelindo Jasa Armada Indonesia
+                                        <a href="{{ asset('Template/assets/images/portfolio/ID CARD.pdf') }}"
+                                            target="_blank">
+                                            <strong>ID Card <br>PT Pelindo Jasa Armada Indonesia</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('Template/assets/images/portfolio/RAT2024.png') }}"
+                                        alt="portfolio image" />
+                                    <div class="isotope-overlay">
+                                        <a href="{{ asset('Template/assets/images/portfolio/Design RAT 2024.pdf') }}"
+                                            target="_blank">
+                                            <strong>Design RAT 2024</strong>
                                         </a>
                                     </div>
                                 </div>
@@ -849,8 +824,8 @@
                                     <img src="{{ asset('Template/assets/images/portfolio/IqomMu.png') }}"
                                         alt="portfolio image" />
                                     <div class="isotope-overlay">
-                                        <a href="#">
-                                            IqomMu (Iqomah Multimedia)
+                                        <a href="#" target="_blank">
+                                            <strong>IqomMu (Iqomah Multimedia)</strong>
                                         </a>
                                     </div>
                                 </div>
@@ -858,8 +833,18 @@
                                     <img src="{{ asset('Template/assets/images/portfolio/presensigps.png') }}"
                                         alt="portfolio image" />
                                     <div class="isotope-overlay">
-                                        <a href="#">
-                                            Presen Track
+                                        <a href="#" target="_blank">
+                                            <strong>Presen Track</strong>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('Template/assets/images/portfolio/RAT2023.png') }}"
+                                        alt="portfolio image" />
+                                    <div class="isotope-overlay">
+                                        <a href="{{ asset('Template/assets/images/portfolio/Design RAT 2023.pdf') }}"
+                                            target="_blank">
+                                            <strong>Design RAT 2023</strong>
                                         </a>
                                     </div>
                                 </div>
@@ -869,8 +854,27 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     <!--portfolio end -->
+
+
+    <section id="education" class="education">
+        <div class="section-heading text-center">
+            <h2>VIDEO</h2>
+        </div>
+        <div class="container">
+            <div class="education-horizontal-timeline">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <!--clients start -->
     <section id="clients" class="clients">
@@ -982,10 +986,10 @@
                                         <h3>email</h3>
                                         <p>kamalandre4@gmail.com</p>
                                     </div>
-                                    <div class="single-contact-add-info">
+                                    {{-- <div class="single-contact-add-info">
                                         <h3>website</h3>
                                         <p>www.portfolio.com</p>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <!--/.contact-adress-->
@@ -1025,40 +1029,11 @@
 
     <!--footer-copyright start-->
     <footer id="footer-copyright" class="footer-copyright">
-        <div class="container">
-            <div class="hm-footer-copyright text-center">
-                <p>
-                    &copy; copyright Kamal Andreansyah 2025
-                </p>
-            </div>
-        </div>
-
-        <div id="scroll-Top">
-            <div class="return-to-top">
-                <i class="fa fa-angle-up " id="scroll-top"></i>
-            </div>
-        </div>
+        @include('layout.footer')
     </footer>
     <!--footer-copyright end-->
 
-    <!-- Include all js compiled plugins (below), or include individual files as needed -->
-    <script src="{{ asset('Template/assets/js/jquery.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="{{ asset('Template/assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('Template/assets/js/bootsnav.js') }}"></script>
-    <script src="{{ asset('Template/assets/js/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('Template/assets/js/progressbar.js') }}"></script>
-    <script src="{{ asset('Template/assets/js/jquery.appear.js') }}"></script>
-    <script src="{{ asset('Template/assets/js/owl.carousel.min.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="{{ asset('Template/assets/js/custom.js') }}"></script>
-    <script>
-        $('a[data-toggle="modal"]').on('click', function (e) {
-        e.preventDefault(); // Mencegah link membuka gambar langsung
-        var imageSrc = $(this).attr('href'); // Ambil href sebagai sumber gambar
-        $('#certificateImage').attr('src', imageSrc); // Set src pada modal
-    });
-    </script>
+    @include('layout.script')
 </body>
 
 </html>
