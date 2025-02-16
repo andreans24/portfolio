@@ -52,7 +52,7 @@
                     <div class="header-text">
                         <h2>hi <span>,</span> i am <br> Kamal Andreansyah <span> </span> </h2>
                         <p>Full-Stack Web Developer (Laravel) | Creative Graphic & Motion Design</p>
-                        <a href="assets/download/browney.txt" download>download resume</a>
+                        <a href="CV_Kamal Andreansyah.pdf" download>download resume</a>
                     </div>
                 </div>
             </div>
