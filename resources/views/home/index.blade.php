@@ -71,18 +71,15 @@
                     <div class="col-sm-6">
                         <div class="single-about-txt">
                             <h3>
-                                Web Developer dengan Laravel | Desainer Grafis & Kreatif Video Editor
+                                Full-Stack Web Developer Laravel | Desainer Grafis & Video Editor
                             </h3>
                             <p>
-                                Halo! Saya adalah seorang profesional yang menggabungkan keahlian desain grafis kreatif
+                                Halo! Saya adalah seorang profesional yang menggabungkan keahlian desain grafis
                                 dan pemrograman web untuk menghadirkan solusi terbaik sesuai kebutuhan. Dengan
                                 pengalaman dalam menciptakan visual yang menawan serta mengembangkan website yang andal,
                                 saya siap membantu membawa proyek Anda ke level berikutnya.
                             </p>
                             <p>
-                                Desain Grafis & Video Editing:
-                                Saya ahli dalam menciptakan visual yang memikat dan menceritakan kisah yang kuat melalui
-                                video.
                                 Software yang Saya Kuasai:
                                 <br>
                                 <strong>Adobe Photoshop:</strong> Retouching, manipulasi gambar, dan desain branding.
@@ -95,11 +92,10 @@
                                 <strong>Adobe After Effects:</strong> Animasi, efek visual, dan motion graphics.
                             </p>
                             <p>
-                                Pengembangan Web:
-                                Saya juga berpengalaman dalam pengembangan web front-end dan back-end, memastikan situs
+                                Saya juga berpengalaman dalam pengembangan web Front-end dan Back-end, memastikan situs
                                 Anda tampil menarik, berfungsi dengan baik, dan sepenuhnya responsif.
                                 <br>
-                                Keahlian Teknis Saya:
+                                Bahasa Program yang saya kuasai :
                                 <br>
                                 <strong>HTML, CSS, JavaScript:</strong> Untuk desain front-end yang interaktif.
                                 <br>
@@ -171,7 +167,7 @@
                                 </tr>
                                 <tr>
                                     <th>Tinggi / Berat Badan:</th>
-                                    <td>165 cm / 65 kg</td>
+                                    <td>167 cm / 68 kg</td>
                                 </tr>
                                 <tr>
                                     <th>Agama:</th>
@@ -530,7 +526,7 @@
                                     <div class="col-md-5">
                                         <div class="experience-time text-right">
                                             <h2>2021 - Present</h2>
-                                            <h3>IT SUPPORT / Programmer</h3>
+                                            <h3>IT SUPPORT / Developer Program</h3>
                                         </div>
                                     </div>
                                     <div class="col-md-offset-1 col-md-5">
