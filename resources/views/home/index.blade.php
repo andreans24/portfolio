@@ -76,8 +76,7 @@
                             <p>
                                 Halo! Saya adalah seorang profesional yang menggabungkan keahlian desain grafis
                                 dan pemrograman web untuk menghadirkan solusi terbaik sesuai kebutuhan. Dengan
-                                pengalaman dalam menciptakan visual yang menawan serta mengembangkan website yang andal,
-                                saya siap membantu membawa proyek Anda ke level berikutnya.
+                                pengalaman dalam menciptakan visual yang menawan serta mengembangkan website yang andal
                             </p>
                             <p>
                                 Software yang Saya Kuasai:
@@ -92,8 +91,7 @@
                                 <strong>Adobe After Effects:</strong> Animasi, efek visual, dan motion graphics.
                             </p>
                             <p>
-                                Saya juga berpengalaman dalam pengembangan web Front-end dan Back-end, memastikan situs
-                                Anda tampil menarik, berfungsi dengan baik, dan sepenuhnya responsif.
+                                Saya juga berpengalaman dalam pengembangan web Front-end dan Back-end
                                 <br>
                                 Bahasa Program yang saya kuasai :
                                 <br>
