@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">Portofolio Kreatif</a>
+                <a class="navbar-brand" href="/">Portofolio</a>
             </div>
             <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">

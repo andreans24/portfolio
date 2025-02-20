@@ -974,7 +974,7 @@
                         <div class="single-contact-box">
                             <div class="contact-adress">
                                 <div class="contact-add-head">
-                                    <h3>Portofolio Kreatif</h3>
+                                    <h3>Portofolio</h3>
                                     <p>Fullstack Web Developer & Creative Multimedia Specialist</p>
                                 </div>
                                 <div class="contact-add-info">
