@@ -51,8 +51,8 @@
                 <div class="col-md-12 text-center">
                     <div class="header-text">
                         <h2>hi <span>,</span> i am <br> Kamal Andreansyah <span> </span> </h2>
-                        <p>Full-Stack Web Developer (Laravel) | Creative Graphic & Motion Design</p>
-                        <a href="CV_Kamal Andreansyah.pdf" download>download resume</a>
+                        <p>Laravel Developer for Web Apps & Admin Dashbord </p>
+                        <a href="Kamal Andreansyah - Resume.pdf" download>download resume</a>
                     </div>
                 </div>
             </div>
@@ -71,54 +71,48 @@
                     <div class="col-sm-6">
                         <div class="single-about-txt">
                             <h3>
-                                Full-Stack Web Developer Laravel | Desainer Grafis & Video Editor
+                                Laravel Developer for Web Apps & Admin Dashbord
                             </h3>
                             <p>
-                                Halo! Saya adalah seorang profesional yang menggabungkan keahlian desain grafis
-                                dan pemrograman web untuk menghadirkan solusi terbaik sesuai kebutuhan. Dengan
-                                pengalaman dalam menciptakan visual yang menawan serta mengembangkan website yang andal
+                                Hi! I'm a Laravel web developer with solid skills in backend and frontend development.
+
+                                I help businesses build web applications, admin dashboards, and internal systems using
+                                Laravel, PHP, and MySQL. I can also design clean and responsive interfaces using HTML5,
+                                CSS3, JavaScript, and Bootstrap.
+
+                                Here’s what I can help you with : <br>
+                                <br>
+                                - Build full web apps using Laravel 9 <br>
+                                - Develop custom admin panels or dashboards <br>
+                                - Fix bugs or improve existing Laravel/PHP code <br>
+                                - Convert Figma/PSD designs into responsive web pages <br>
+                                <br>I’m also experienced with design and motion tools like Adobe Illustrator, Photoshop,
+                                After Effects, and Premiere — perfect for clients who want both code and visuals done
+                                right.
+
+                                If you’re looking for someone reliable, communicative, and results-oriented, I’m ready
+                                to help. Let’s build something great together!
                             </p>
-                            <p>
-                                Software yang Saya Kuasai:
-                                <br>
-                                <strong>Adobe Photoshop:</strong> Retouching, manipulasi gambar, dan desain branding.
-                                <br>
-                                <strong>Adobe Illustrator:</strong> Desain logo, vektor, dan ilustrasi lainnya.
-                                <br>
-                                <strong>Adobe Premiere Pro:</strong> Editing video profesional untuk konten berkualitas
-                                tinggi.
-                                <br>
-                                <strong>Adobe After Effects:</strong> Animasi, efek visual, dan motion graphics.
-                            </p>
-                            <p>
-                                Saya juga berpengalaman dalam pengembangan web Front-end dan Back-end
-                                <br>
-                                Bahasa Program yang saya kuasai :
-                                <br>
-                                <strong>HTML, CSS, JavaScript:</strong> Untuk desain front-end yang interaktif.
-                                <br>
-                                <strong>PHP dan Laravel 9:</strong> Untuk pengembangan back-end yang tangguh dan aman.
-                            </p>
-                            {{-- <div class="row">
-                                <div class="col-sm-5">
+                            <div class="row">
+                                <div class="col-sm-6 mb-4 px-3">
                                     <div class="single-about-add-info">
-                                        <h3>phone</h3>
+                                        <h3>Whatsapp</h3>
                                         <p>+62 821-1497-6405</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-6 mb-4 px-3">
                                     <div class="single-about-add-info">
                                         <h3>email</h3>
                                         <p>kamalandre4@gmail.com</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-6 mb-4 px-3">
                                     <div class="single-about-add-info">
                                         <h3>website</h3>
-                                        <p>www.portfolio.com</p>
+                                        <p>bit.ly/portofolio_kamal_andreansyah</p>
                                     </div>
                                 </div>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-offset-1 col-sm-5">
@@ -150,42 +144,6 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <p class="profile-summary">
-                            <strong>Profile</strong>
-                        <table class="table table-borderless">
-                            <tbody>
-                                <tr>
-                                    <th>Tanggal Lahir:</th>
-                                    <td>24 Oktober 1991</td>
-                                </tr>
-                                <tr>
-                                    <th>Alamat:</th>
-                                    <td>Jl. Mahoni Lontar II No 5 Jakarta Utara</td>
-                                </tr>
-                                <tr>
-                                    <th>Tinggi / Berat Badan:</th>
-                                    <td>167 cm / 68 kg</td>
-                                </tr>
-                                <tr>
-                                    <th>Agama:</th>
-                                    <td>Islam</td>
-                                </tr>
-                                <tr>
-                                    <th>Status:</th>
-                                    <td>Menikah</td>
-                                </tr>
-                                <tr>
-                                    <th>No. Telp:</th>
-                                    <td>+62 821-1497-6405</td>
-                                </tr>
-                                <tr>
-                                    <th>Email:</th>
-                                    <td>kamalandre4@gmail.com</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -205,7 +163,7 @@
                         <div class="single-horizontal-timeline">
                             <div class="experience-time">
                                 <h2>2010 - 2014</h2>
-                                <h3>S1 Sistem Komputer</h3>
+                                <h3>S1 Computer Systems</h3>
                             </div>
                             <!--/.experience-time-->
                             <div class="timeline-horizontal-border">
@@ -230,7 +188,7 @@
                         <div class="single-horizontal-timeline">
                             <div class="experience-time">
                                 <h2>2008 - 2010</h2>
-                                <h3>Teknik Komputer Jaringan</h3>
+                                <h3>Computer network Engineering</h3>
                             </div>
                             <div class="timeline-horizontal-border">
                                 <i class="fa fa-circle" aria-hidden="true"></i>
@@ -536,9 +494,12 @@
                                                 </h4>
                                                 <h5>Jakarta, Indonesia</h5>
                                                 <p class="description">
-                                                    Perusahaan atau Organisasi bergerak dalam bidang pelayanan jasa
-                                                    Simpan – Pinjam, Tenaga Kerja (Outsourcing), dan Pekerjaan
-                                                    Pemborongan
+                                                    Companies or organizations engaged in the field of savings and loan
+                                                    services, labor (outsourcing), and contract work. <br>
+                                                    ● Business Field : Oursourching <br>
+                                                    ● Job Description : Manage HRMS application system, Website Company
+                                                    <br>
+                                                    ● Tools : Laravel 7, GIT, Oracle, MySql, Docker, Hosting & Domain
                                                 </p>
                                             </div>
                                         </div>
@@ -559,8 +520,11 @@
                                                 </h4>
                                                 <h5>Jakarta, Indonesia</h5>
                                                 <p class="description">
-                                                    Perusahaan Jasa Penyedia Aplikasi Kesehatan Rumah Sakit Berbasis Web
-                                                    (Sphaira)
+                                                    Hospital Health Application Provider Service Company Based on Web
+                                                    (Sphaira) <br>
+                                                    ● Business Field : Hospital Information System <br>
+                                                    ● Job Description : Application testing, Testing new features,
+                                                    testing after repair
                                                 </p>
                                             </div>
                                         </div>
@@ -596,8 +560,11 @@
                                                 </h4>
                                                 <h5>Jakarta, Indonesia</h5>
                                                 <p class="description">
-                                                    Perusahaan yang bergerak dibidang layanan jual beli online dan
-                                                    e-commerce
+                                                    A company engaged in online buying and selling services and
+                                                    e-commerce <br>
+                                                    ● Business Field : Online buying and selling platform <br>
+                                                    ● Job Description : Sales product input <br>
+                                                    ● Tools : SellerCenter
                                                 </p>
                                             </div>
                                         </div>
@@ -969,11 +936,11 @@
                             <div class="contact-adress">
                                 <div class="contact-add-head">
                                     <h3>Portofolio</h3>
-                                    <p>Fullstack Web Developer & Creative Multimedia Specialist</p>
+                                    <p>Laravel Developer for Web Apps & Admin Dashbord</p>
                                 </div>
                                 <div class="contact-add-info">
                                     <div class="single-contact-add-info">
-                                        <h3>phone</h3>
+                                        <h3>Whatsapp</h3>
                                         <p>+62 821-1497-6405</p>
                                     </div>
                                     <div class="single-contact-add-info">
